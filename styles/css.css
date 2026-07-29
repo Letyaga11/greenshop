@@ -1,11 +1,50 @@
-h2 ~ p {
-color: red;
+h1 {
+  color: #46a358;
+  text-align: center;
 }
 
-#sometext {
-    color: red;}
-    * { 
-    
-    }
-    * { margin: 0;
-    padding: 0;}
+a[href] {
+  color: black;
+}
+
+#text1 {
+  text-align: center;
+}
+
+span {
+  color: black;
+}
+
+p {
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  width: 300px;
+  height: 30px;
+}
+
+
+button {
+  width: 300px;
+  height: 40px;
+}
+
+#btn {
+  background-color: #46a358;
+  color: whitesmoke;
+  margin: auto;
+  width: 300px;
+  height: 40px;
+}
+
+#text2 {
+  width: 300px;
+  text-align: center;
+}
+
+img [src] {
+  height: auto;
+  width: 20;
+}
