@@ -3,29 +3,201 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css.css" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="norm.css" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>login</title>
+    <title>Greenshop</title>
+    <link rel="stylesheet" href="./styles/css.css" />
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/norm.css" />
   </head>
   <body>
-    <header></header>
-    <main>
-      <section class="form-section">
-        <h2>login | register</h2>
-        <form>
-          <p>enter your email amd password</p>
-          <p>
-            <label>
-              <input type="text" placeholder="username" />
-            </label>
-          </p>
-        </form>
-      </section>
-    </main>
-    <footer></footer>
+    <header class="header container">
+      <header class="navbar">
+        <div class="logo">
+          <img src="./Vector.png" alt="Greenshop" />
+          <span font-size: 23px;>Greenshop</span>
+        </div>
+
+        <nav class="nav-links">
+          <ul class="menu">
+            <li><a class="active">Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>Plant Care</a></li>
+            <li><a>Blogs</a></li>
+          </ul>
+        </nav>
+
+        <button class="login-btn">
+          <img src="./Logout.png" alt="Logout" /> Login
+        </button>
+      </header>
+      <hr />
+    </header>
+    <hr class="divider" />
+    <section class="hero">
+      <div class="hero-content">
+        <p class="welcome">WELCOME TO GREENSHOP</p>
+
+        <h1>
+          LET'S MAKE A<br />
+          BETTER <span style="color: #46a358">PLANET</span>
+
+          <br />
+        </h1>
+        <br />
+        <p class="description">
+          We are an online plant shop offering a wide range of cheap and trendy
+          plants. Use our plants to create an unique Urban Jungle. Order your
+          favorite plants!
+        </p>
+        <button class="shop-btn">Shop Now</button>
+      </div>
+
+      <div class="hero-image">
+        <img src="./Group 25.png" alt="Plant" />
+      </div>
+    </section>
+
+    <section class="shop-section clearfix">
+      <aside class="sidebar">
+        <div class="categories">
+          <h3 class="sidebar-title">Categories</h3>
+          <ul class="category-list">
+            <li class="active">
+              <a href="#">House Plants</a>
+            </li>
+            <li>
+              <a href="#">Potter Plants</a>
+            </li>
+            <li>
+              <a href="#">Seeds</a>
+            </li>
+            <li>
+              <a href="#">Small Plants</a>
+            </li>
+            <li>
+              <a href="#">Big Plants</a>
+            </li>
+            <li>
+              <a href="#">Succulents</a>
+            </li>
+            <li>
+              <a href="#">Terrariums</a>
+            </li>
+            <li>
+              <a href="#">Gardening</a>
+            </li>
+            <li>
+              <a href="#">Accessories</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="sale-banner">
+          <h2>Super Sale</h2>
+          <p>UP TO 75% OFF</p>
+          <img src="./444.png" alt="Super Sale Plant" />
+        </div>
+      </aside>
+
+      <div class="products-content">
+        <div class="shop-navbar clearfix">
+          <ul class="filter-tabs">
+            <li class="active"><a href="#">All Plants</a></li>
+            <li><a href="#">New Arrivals</a></li>
+            <li><a href="#">Sale</a></li>
+          </ul>
+
+          <div class="sort-by">
+            <span>Sort by: </span>
+            <select>
+              <option value="default">Default sorting</option>
+              <option value="cheap">Price: Low to High</option>
+              <option value="expensive">Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="products-grid clearfix">
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 1.png" alt="Barberton Daisy" />
+            </div>
+            <h4 class="product-title">Barberton Daisy</h4>
+            <p class="product-price">$119.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./product-21-320x320 1.png" alt="Angel Wing Begonia" />
+            </div>
+            <h4 class="product-title">Angel Wing Begonia</h4>
+            <p class="product-price">$169.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 2.png" alt="African Violet" />
+            </div>
+            <h4 class="product-title">African Violet</h4>
+            <p class="product-price">$199.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./01 3.png" alt="Beach Spider Lily" />
+            </div>
+            <h4 class="product-title">Beach Spider Lily</h4>
+            <p class="product-price">$129.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 7.png" alt="Blushing Bromeliad" />
+            </div>
+            <h4 class="product-title">Blushing Bromeliad</h4>
+            <p class="product-price">$139.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 8.png" alt="Aluminum Plant" />
+            </div>
+            <h4 class="product-title">Aluminum Plant</h4>
+            <p class="product-price">$179.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 9.png" alt="Bird's Nest Fern" />
+            </div>
+            <h4 class="product-title">Bird's Nest Fern</h4>
+            <p class="product-price">$99.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./product-21-320x320 1.png" alt="Broadleaf Lady Palm" />
+            </div>
+            <h4 class="product-title">Broadleaf Lady Palm</h4>
+            <p class="product-price">$59.00</p>
+          </div>
+
+          <div class="product-card">
+            <div class="img-box">
+              <img src="./image 10.png" alt="Chinese Evergreen" />
+            </div>
+            <h4 class="product-title">Chinese Evergreen</h4>
+            <p class="product-price">$39.00</p>
+          </div>
+        </div>
+
+        <div class="pagination">
+          <a href="#" class="page-link active">1</a>
+          <a href="#" class="page-link">2</a>
+          <a href="#" class="page-link">3</a>
+          <a href="#" class="page-link">4</a>
+          <a href="#" class="page-link">&gt;</a>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
